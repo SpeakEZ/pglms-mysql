@@ -42,7 +42,9 @@ class DragTest
   "Drag.fromFile" should
   "return Drag" in {
 
-    val dragMaybe = Drag.fromFile("drag.xml")
+    val xmlFile = getClass.getClassLoader.getResource("activity/drag.xml").getFile
+
+    val dragMaybe = Drag.fromFile(xmlFile)
 
     inside (dragMaybe) {
       case Some(drag) => {

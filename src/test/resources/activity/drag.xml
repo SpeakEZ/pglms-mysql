@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data version="1.0" id="Task302459" brand="Power-Glide" course="" title="Pronunciation: Greetings" native_lang="" target_lang="" graded="No" switch="">
+  <introduction/>
+  <instructions auto="No">In this activity, you will see a column of words or phrases on the left.
+    At the bottom of the screen, you will see a group of answers. Drag each answer to its corresponding word or phrase.</instructions>
+  <group>
+    <question case_sensitive="No">
+      <qtext>Hello</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Hola.mp3">
+        <atext>Hola</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>How are you? (familiar)</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Como_estas.mp3">
+        <atext>¿Cómo estás?</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>How is it going?</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Como_te_va.mp3">
+        <atext>¿Cómo te va?</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>What's up?</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Que_pasa.mp3">
+        <atext>¿Qué pasa?</atext>
+      </answer>
+    </question>
+  </group>
+  <group>
+    <question case_sensitive="No">
+      <qtext>nothing</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/nada.mp3">
+        <atext>nada</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>How are things?</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Que_tal.mp3">
+        <atext>¿Qué tal?</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>fine, thanks</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/bien_gracias.mp3">
+        <atext>bien, gracias</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>okay (so so)</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/mas_o_menos.mp3">
+        <atext>más o menos</atext>
+      </answer>
+    </question>
+  </group>
+  <group>
+    <question case_sensitive="No">
+      <qtext>My name is __.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Me_llamo.mp3">
+        <atext>Me llamo __.</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>Nice to meet you.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Mucho_gusto.mp3">
+        <atext>Mucho gusto.</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>Same here.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Igualmente.mp3">
+        <atext>Igualmente.</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>Goodbye.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/adios.mp3">
+        <atext>Adiós.</atext>
+      </answer>
+    </question>
+  </group>
+  <group>
+    <question case_sensitive="No">
+      <qtext>See you later.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Hasta_luego.mp3">
+        <atext>Hasta luego.</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>See you tomorrow.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Hasta_manana.mp3">
+        <atext>Hasta mañana.</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>See you around.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Nos_vemos.mp3">
+        <atext>Nos vemos.</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>Thank you.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/gracias.mp3">
+        <atext>Gracias.</atext>
+      </answer>
+    </question>
+  </group>
+  <group>
+    <question case_sensitive="No">
+      <qtext>please</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/por_favor.mp3">
+        <atext>por favor</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>the boy</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/el_chico.mp3">
+        <atext>el chico</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>the girl</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/la_chica.mp3">
+        <atext>la chica</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>the little boy</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/el_nino.mp3">
+        <atext>el niño</atext>
+      </answer>
+    </question>
+  </group>
+  <group>
+    <question case_sensitive="No">
+      <qtext>the boy</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/el_muchacho.mp3">
+        <atext>el muchacho</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>the girl</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/la_muchacha.mp3">
+        <atext>la muchacha</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>the man</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/el_hombre.mp3">
+        <atext>el hombre</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>the little girl</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/la_nina.mp3">
+        <atext>la niña</atext>
+      </answer>
+    </question>
+  </group>
+  <group>
+    <question case_sensitive="No">
+      <qtext>the woman</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/la_mujer.mp3">
+        <atext>la mujer</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>Mrs.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/la_senora.mp3">
+        <atext>la señora</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>the friend</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/el_amigo.mp3">
+        <atext>el amigo</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>Mr.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/el_senor.mp3">
+        <atext>el señor</atext>
+      </answer>
+    </question>
+  </group>
+  <group>
+    <question case_sensitive="No">
+      <qtext>Good morning.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Buenos_dias.mp3">
+        <atext>Buenos días.</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>Good afternoon.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Buenas_tardes.mp3">
+        <atext>Buenas tardes.</atext>
+      </answer>
+    </question>
+    <question case_sensitive="No">
+      <qtext>Good night.</qtext>
+      <answer correct="Yes" audio="https://content.pglms.com/content/v2/Highschool_audio/Spanish/Greetings/Buenas_noches.mp3">
+        <atext>Buenas noches.</atext>
+      </answer>
+    </question>
+  </group>
+</data>
