@@ -1,6 +1,17 @@
 package com.pglms
 package activity
 
+/**
+ * Question
+ * {{{
+ * <question case_sensitive="No">
+ *   <qtext>Hello</qtext>
+ *   <answer>
+ *     ...
+ *   </answer>
+ * </question>
+ * }}}
+ */
 case class Question(
   caseSensitive: String,
   text: Option[String],

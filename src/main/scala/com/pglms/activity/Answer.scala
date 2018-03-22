@@ -1,6 +1,14 @@
 package com.pglms
 package activity
 
+/**
+ * Answer
+ * {{{
+ * <answer>
+ *   <atext>Hola</atext>
+ * </answer>
+ * }}}
+ */
 case class Answer(
   correct: String,
   audio: String,

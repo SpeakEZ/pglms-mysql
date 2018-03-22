@@ -1,6 +1,22 @@
 package com.pglms
 package activity
 
+/**
+ * Drag and drop activity
+ * {{{
+ * <data version="1.0" id="123" brand="Power-Glide" course="Spanish" title="Greetings" graded="No">
+ *   ...
+ * </data>
+ * }}}
+ *
+ * Child elements:
+ *
+ *   - [[com.pglms.activity.Introduction Introduction]]
+ *   - [[com.pglms.activity.Instructions Instructions]]
+ *   - [[com.pglms.activity.QuestionGroup QuestionGroup]]
+ *     - [[com.pglms.activity.Question Question]]
+ *       - [[com.pglms.activity.Answer Answer]]
+ */
 case class Drag(
   version: String,
   id: String,
@@ -36,6 +52,12 @@ object Drag {
   }
 }
 
+/**
+ * Introduction
+ * {{{
+ * <introduction/>
+ * }}}
+ */
 case class Introduction(
   text: String
 )
@@ -50,6 +72,12 @@ object Introduction {
   }
 }
 
+/**
+ * Instructions
+ * {{{
+ * <instructions/>
+ * }}}
+ */
 case class Instructions(
   auto: String,
   text: String
@@ -66,6 +94,12 @@ object Instructions {
   }
 }
 
+/**
+ * Question group
+ * {{{
+ * <group/>
+ * }}}
+ */
 case class QuestionGroup(
   questions: Seq[Question]
 )
