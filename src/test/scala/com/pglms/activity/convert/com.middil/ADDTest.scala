@@ -91,7 +91,7 @@ class ADDTest
     // val expected = scala.xml.XML.loadFile(ADD.toElem(ADD.fromFile(addFile)))
     // pp.format(xml) should be (pp.format(expected))
 
-    val expected = scala.io.Source.fromFile(addFile).mkString
+    val expected = scala.io.Source.fromFile(addFile).mkString.stripLineEnd
 
     pp.format(xml) should be (expected)
   }
