@@ -15,7 +15,7 @@ package activity
 case class Question(
   caseSensitive: String,
   text: Option[String],
-  answer: Seq[Answer]
+  answers: Seq[Answer]
 )
 
 object Question {
@@ -24,8 +24,8 @@ object Question {
       question <- (el \ "question")
     } yield Question(
       caseSensitive = question \@ "case_sensitive",
-      text = (question \ "qtext").headOption.map(_.text),
-      answer = Answer.fromElem(question)
+      text          = (question \ "qtext").headOption.map(_.text),
+      answers       = Answer.fromElem(question)
     )
   }
 }

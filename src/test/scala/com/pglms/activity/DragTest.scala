@@ -72,7 +72,7 @@ class DragTest
 
             question shouldBe a [Question]
 
-            forAll (question.answer) { answer =>
+            forAll (question.answers) { answer =>
               answer.correct should not be ("")
               answer.audio should not be ("")
               answer.text should not be ("")

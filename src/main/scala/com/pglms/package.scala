@@ -1,7 +1,7 @@
 package com
 
 /**
- * Power-Glide Learning Managment System
+ * Power-Glide Learning Management System (PGLMS)
  *
  * Data library
  *

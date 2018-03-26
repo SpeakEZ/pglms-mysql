@@ -30,7 +30,7 @@ class QuestionTest
     val expected = Question(
       caseSensitive = "No",
       text          = Some("Hello"),
-      answer        = Seq(
+      answers        = Seq(
         Answer(
           correct = "",
           audio   = "",

@@ -16,6 +16,8 @@ package activity
  *   - [[com.pglms.activity.QuestionGroup QuestionGroup]]
  *     - [[com.pglms.activity.Question Question]]
  *       - [[com.pglms.activity.Answer Answer]]
+ *
+ * @see [[com.pglms.activity.convert.com.middil.ADD$]]
  */
 case class Drag(
   version: String,

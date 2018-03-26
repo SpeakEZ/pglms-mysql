@@ -9,7 +9,7 @@ class ADDTest
     extends FlatSpec
     with Matchers {
 
-  "ADD.toElem" should
+  "com.middil.activity.xml.ADD.toElem" should
   "return XML" in {
 
     val add = ADD(
@@ -43,7 +43,7 @@ class ADDTest
         <image/>
         <timer>down</timer>
         <scored>true</scored>
-        <attempts>true</attempts>
+        <attempts>0</attempts>
         <message>
           <text/>
           <audio/>

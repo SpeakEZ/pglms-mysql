@@ -1,0 +1,85 @@
+<data type="ADD" author="SpeakEZ 2.5" saved="Wed Mar 14 16:23:00 GMT-0400 2018" randomize="true">
+  <image/>
+  <timeout show="false">0</timeout>
+  <timeoutIndex show="true">0</timeoutIndex>
+  <timer>down</timer>
+  <scored>true</scored>
+  <attempts>3</attempts>
+  <message>
+    <text/>
+    <audio/>
+  </message>
+  <group/>
+  <elementcount targetCount="0" dragCount="4"/>
+  <draggable>draggable1</draggable>
+  <draggable>draggable2</draggable>
+  <draggable>draggable3</draggable>
+  <draggable>draggable4</draggable>
+  <element hideText="false" hideBorder="false" type="Draggable Element" itemName="draggable1" mediaType="Text" verticalTextAlignment="alignMiddle" insideTextHTML="&lt;HTML&gt;&lt;BODY&gt;&lt;P ALIGN=&quot;center&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; SIZE=&quot;12&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;&lt;FONT SIZE=&quot;18&quot;&gt;Hola&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;" roundedEdges="false" scaleInTarget="false" bkColor="16777215" width="250" height="100" x="50" y="300" rotation="0" dropOpacity="0.8" autoPlay="false" mute="false" backgroundOpacity="0.75" maintainAspectRatio="true" notTarget="true">
+    <media mediaThumbnail=""/>
+    <audio iconColor="229740"/>
+  </element>
+  <element hideText="false" hideBorder="false" type="Draggable Element" itemName="draggable2" mediaType="Text" verticalTextAlignment="alignMiddle" insideTextHTML="&lt;HTML&gt;&lt;BODY&gt;&lt;P ALIGN=&quot;center&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; SIZE=&quot;12&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;&lt;FONT SIZE=&quot;18&quot;&gt;¿Cómo estás?&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;" roundedEdges="false" scaleInTarget="false" bkColor="16777215" width="250" height="100" x="400" y="400" rotation="0" dropOpacity="0.8" autoPlay="false" mute="false" backgroundOpacity="0.75" maintainAspectRatio="true" notTarget="true">
+    <media mediaThumbnail=""/>
+    <audio iconColor="229740"/>
+  </element>
+  <element hideText="false" hideBorder="false" type="Draggable Element" itemName="draggable3" mediaType="Text" verticalTextAlignment="alignMiddle" insideTextHTML="&lt;HTML&gt;&lt;BODY&gt;&lt;P ALIGN=&quot;center&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; SIZE=&quot;12&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;&lt;FONT SIZE=&quot;18&quot;&gt;¿Cómo te va?&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;" roundedEdges="false" scaleInTarget="false" bkColor="16777215" width="250" height="100" x="750" y="500" rotation="0" dropOpacity="0.8" autoPlay="false" mute="false" backgroundOpacity="0.75" maintainAspectRatio="true" notTarget="true">
+    <media mediaThumbnail=""/>
+    <audio iconColor="229740"/>
+  </element>
+  <element hideText="false" hideBorder="false" type="Draggable Element" itemName="draggable4" mediaType="Text" verticalTextAlignment="alignMiddle" insideTextHTML="&lt;HTML&gt;&lt;BODY&gt;&lt;P ALIGN=&quot;center&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; SIZE=&quot;12&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;&lt;FONT SIZE=&quot;18&quot;&gt;¿Qué pasa?&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;" roundedEdges="false" scaleInTarget="false" bkColor="16777215" width="250" height="100" x="1100" y="600" rotation="0" dropOpacity="0.8" autoPlay="false" mute="false" backgroundOpacity="0.75" maintainAspectRatio="true" notTarget="true">
+    <media mediaThumbnail=""/>
+    <audio iconColor="229740"/>
+  </element>
+  <container x="275" y="50" width="250" height="100" borderStyle="none" borderColor="0" backgroundColor="0" backgroundAlpha="0" borderPadding="0" borderThickness="0" borderRadius="0" rotation="0" type="interactive_text" label="" randomize="false" weight="0">
+    <elements fontSize="14" fontWeight="normal" fontFamily="Arial" fontPosture="normal" textDecoration="none" lineHeight="0" fontColor="0" rearrange="false">
+      <element fontSize="14" fontWeight="normal" fontFamily="Arial" fontPosture="normal" textDecoration="undefined" lineHeight="0" fontColor="0">
+        <type toolTip="">text</type>
+        <text>Hello</text>
+      </element>
+    </elements>
+  </container>
+  <container x="275" y="150" width="250" height="100" borderStyle="none" borderColor="0" backgroundColor="0" backgroundAlpha="0" borderPadding="0" borderThickness="0" borderRadius="0" rotation="0" type="interactive_text" label="" randomize="false" weight="0">
+    <elements fontSize="14" fontWeight="normal" fontFamily="Arial" fontPosture="normal" textDecoration="none" lineHeight="0" fontColor="0" rearrange="false">
+      <element fontSize="14" fontWeight="normal" fontFamily="Arial" fontPosture="normal" textDecoration="undefined" lineHeight="0" fontColor="0">
+        <type toolTip="">text</type>
+        <text>How are you? (familiar)</text>
+      </element>
+    </elements>
+  </container>
+  <container x="275" y="250" width="250" height="100" borderStyle="none" borderColor="0" backgroundColor="0" backgroundAlpha="0" borderPadding="0" borderThickness="0" borderRadius="0" rotation="0" type="interactive_text" label="" randomize="false" weight="0">
+    <elements fontSize="14" fontWeight="normal" fontFamily="Arial" fontPosture="normal" textDecoration="none" lineHeight="0" fontColor="0" rearrange="false">
+      <element fontSize="14" fontWeight="normal" fontFamily="Arial" fontPosture="normal" textDecoration="undefined" lineHeight="0" fontColor="0">
+        <type toolTip="">text</type>
+        <text>How is it going?</text>
+      </element>
+    </elements>
+  </container>
+  <container x="275" y="350" width="250" height="100" borderStyle="none" borderColor="0" backgroundColor="0" backgroundAlpha="0" borderPadding="0" borderThickness="0" borderRadius="0" rotation="0" type="interactive_text" label="" randomize="false" weight="0">
+    <elements fontSize="14" fontWeight="normal" fontFamily="Arial" fontPosture="normal" textDecoration="none" lineHeight="0" fontColor="0" rearrange="false">
+      <element fontSize="14" fontWeight="normal" fontFamily="Arial" fontPosture="normal" textDecoration="undefined" lineHeight="0" fontColor="0">
+        <type toolTip="">text</type>
+        <text>What's up?</text>
+      </element>
+    </elements>
+  </container>
+  <hotspotlist>hotspot1</hotspotlist>
+  <hotspotlist>hotspot2</hotspotlist>
+  <hotspotlist>hotspot3</hotspotlist>
+  <hotspotlist>hotspot4</hotspotlist>
+  <hotspot type="rectangle" itemName="hotspot1" width="250" height="100" x="450" y="50" rotation="0" dropOpacity="1" isDragDropContainer="true">
+    <associations>draggable1</associations>
+  </hotspot>
+  <hotspot type="rectangle" itemName="hotspot2" width="250" height="100" x="450" y="150" rotation="0" dropOpacity="1" isDragDropContainer="true">
+    <associations>draggable2</associations>
+  </hotspot>
+  <hotspot type="rectangle" itemName="hotspot3" width="250" height="100" x="450" y="250" rotation="0" dropOpacity="1" isDragDropContainer="true">
+    <associations>draggable3</associations>
+  </hotspot>
+  <hotspot type="rectangle" itemName="hotspot4" width="250" height="100" x="450" y="350" rotation="0" dropOpacity="1" isDragDropContainer="true">
+    <associations>draggable4</associations>
+  </hotspot>
+  <weight>
+    <total>0</total>
+  </weight>
+</data>

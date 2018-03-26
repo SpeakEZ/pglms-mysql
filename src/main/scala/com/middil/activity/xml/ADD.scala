@@ -29,6 +29,8 @@ package xml
  *   - [[com.middil.activity.xml.TimeoutIndex TimeoutIndex]]
  *   - [[com.middil.activity.xml.Timeout Timeout]]
  *   - [[com.middil.activity.xml.Weight Weight]]
+ *
+ * @see [[com.pglms.activity.convert.com.middil.ADD$]]
  */
 case class ADD(
   author: String,
@@ -39,7 +41,7 @@ case class ADD(
   timeoutIndex: Option[TimeoutIndex],
   timer: Option[String],
   scored: Option[String],
-  attempts: Option[String],
+  attempts: Option[Long],
   messages: Seq[Message],
   groups: Seq[Group],
   elementCount: Option[ElementCount],
@@ -66,7 +68,7 @@ object ADD {
       }
       <timer>{ add.timer.getOrElse("down") }</timer>
       <scored>{ add.scored.getOrElse("true") }</scored>
-      <attempts>{ add.attempts.getOrElse("true") }</attempts>
+      <attempts>{ add.attempts.getOrElse(0L).toString }</attempts>
       { Message.toElem(add.messages) }
       { Group.toElem(add.groups) }
       { add.elementCount.map {
@@ -129,7 +131,7 @@ case class Timeout(
 object Timeout {
 
   def toElem(timeout: Timeout): scala.xml.Elem = {
-    <timeout show={timeout.show}>{timeout.duration}</timeout>
+    <timeout show={timeout.show}>{timeout.duration.getOrElse(0L).toString}</timeout>
   }
 }
 
@@ -147,7 +149,7 @@ case class TimeoutIndex(
 object TimeoutIndex {
 
   def toElem(timeoutIndex: TimeoutIndex): scala.xml.Elem = {
-    <timeoutIndex show={timeoutIndex.show}>{timeoutIndex.index}</timeoutIndex>
+    <timeoutIndex show={timeoutIndex.show}>{timeoutIndex.index.getOrElse(0L).toString}</timeoutIndex>
   }
 }
 
@@ -188,15 +190,15 @@ object Group {
  * }}}
  */
 case class ElementCount(
-  targetCount: Long,
-  dragCount: Long
+  targetCount: Option[Long],
+  dragCount: Option[Long]
 )
 
 object ElementCount {
 
   def toElem(elementCount: ElementCount): scala.xml.Elem = {
-    <elementcount targetCount={elementCount.targetCount.toString}
-                  dragCount={elementCount.dragCount.toString} />
+    <elementcount targetCount={elementCount.targetCount.getOrElse(0L).toString}
+                  dragCount={elementCount.dragCount.getOrElse(0L).toString} />
   }
 }
 
@@ -206,13 +208,13 @@ object ElementCount {
  * }}}
  */
 case class Draggable(
-  name: Option[String]
+  name: String
 )
 
 object Draggable {
 
   def toElem(draggable: Draggable): scala.xml.Elem = {
-    <draggable>{draggable.name.getOrElse("")}</draggable>
+    <draggable>{draggable.name}</draggable>
   }
 
   def toElem(draggables: Seq[Draggable]): scala.xml.NodeSeq = {
