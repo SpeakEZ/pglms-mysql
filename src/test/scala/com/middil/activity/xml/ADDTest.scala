@@ -2,6 +2,9 @@ package com.middil
 package activity
 package xml
 
+import com.middil.activity.xml.add.Container
+import com.middil.activity.xml.add.Element
+
 import org.scalatest.FlatSpec
 import org.scalatest.Matchers
 
@@ -26,8 +29,8 @@ class ADDTest
       groups       = Seq.empty[Group],
       elementCount = None,
       draggables   = Seq.empty[Draggable],
-      elements     = Seq.empty[Element],
-      containers   = Seq.empty[Container],
+      elements     = Seq.empty[ADD.element],
+      containers   = Seq.empty[ADD.container],
       hotspotLists = Seq.empty[HotspotList],
       hotspots     = Seq.empty[Hotspot],
       weight       = None

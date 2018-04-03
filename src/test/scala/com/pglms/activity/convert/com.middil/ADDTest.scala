@@ -55,8 +55,8 @@ class ADDTest
         )
       ),
       draggables   = Seq.empty[com.middil.activity.xml.Draggable],
-      elements     = Seq.empty[com.middil.activity.xml.Element],
-      containers   = Seq.empty[com.middil.activity.xml.Container],
+      elements     = Seq.empty[com.middil.activity.xml.ADD.element],
+      containers   = Seq.empty[com.middil.activity.xml.ADD.container],
       hotspotLists = Seq.empty[com.middil.activity.xml.HotspotList],
       hotspots     = Seq.empty[com.middil.activity.xml.Hotspot],
       weight       = Some(

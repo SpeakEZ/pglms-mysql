@@ -72,7 +72,7 @@ object ADD {
     }
   }
 
-  def makeElements(drag: Drag): Seq[com.middil.activity.xml.Element] = {
+  def makeElements(drag: Drag): Seq[com.middil.activity.xml.add.Element] = {
     for {
       group <- drag.groups.take(1)
       (question, i) <- group.questions.zipWithIndex
@@ -83,7 +83,7 @@ object ADD {
       val elementY       = 300 + (100 * i)
       val elementWidth   = 250
       val elementHeight  = 100
-      com.middil.activity.xml.Element(
+      com.middil.activity.xml.add.Element(
         hideText              = "false",
         hideBorder            = "false",
         elementType           = "Draggable Element",
@@ -128,7 +128,7 @@ object ADD {
     }
   }
 
-  def makeContainers(drag: Drag): Seq[com.middil.activity.xml.Container] = {
+  def makeContainers(drag: Drag): Seq[com.middil.activity.xml.add.Container] = {
     for {
       group <- drag.groups.take(1)
       (question, i) <- group.questions.zipWithIndex
@@ -138,7 +138,7 @@ object ADD {
       val containerY      = 50 + (100 * i)
       val containerWidth  = 250
       val containerHeight = 100
-      com.middil.activity.xml.Container(
+      com.middil.activity.xml.add.Container(
         x               = containerX.toString,
         y               = containerY.toString,
         width           = containerWidth.toString,
@@ -156,7 +156,7 @@ object ADD {
         randomize       = "false",
         weight          = "0",
         elements        = Seq(
-          com.middil.activity.xml.ContainerElements(
+          com.middil.activity.xml.add.ContainerElements(
             fontSize       = "14",
             fontWeight     = "normal",
             fontFamily     = "Arial",
@@ -166,7 +166,7 @@ object ADD {
             fontColor      = "0",
             rearrange      = "false",
             elements       = Seq(
-              com.middil.activity.xml.ContainerElement(
+              com.middil.activity.xml.add.ContainerElement(
                 fontSize       = "14",
                 fontWeight     = "normal",
                 fontFamily     = "Arial",
@@ -175,13 +175,13 @@ object ADD {
                 lineHeight     = "0",
                 fontColor      = "0",
                 elementType    = Some(
-                  com.middil.activity.xml.ElementType(
+                  com.middil.activity.xml.add.ElementType(
                     toolTip     = "",
                     elementType = "text"
                   )
                 ),
                 elementText    = Some(
-                  com.middil.activity.xml.ElementText(
+                  com.middil.activity.xml.add.ElementText(
                     elementText = question.text.getOrElse("")
                   )
                 )

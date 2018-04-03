@@ -2,6 +2,9 @@ package com.middil
 package activity
 package xml
 
+import com.middil.activity.xml.add.Container
+import com.middil.activity.xml.add.Element
+
 /**
  * Advanced drag and drop activity (ADD)
  * {{{
@@ -10,14 +13,14 @@ package xml
  *
  * Child elements:
  *
- *   - [[com.middil.activity.xml.Container Container]]
- *     - [[com.middil.activity.xml.ContainerElements ContainerElements]]
- *       - [[com.middil.activity.xml.ContainerElement ContainerElement]]
- *         - [[com.middil.activity.xml.ElementType ElementText]]
- *         - [[com.middil.activity.xml.ElementType ElementType]]
+ *   - [[com.middil.activity.xml.add.Container Container]]
+ *     - [[com.middil.activity.xml.add.ContainerElements ContainerElements]]
+ *       - [[com.middil.activity.xml.add.ContainerElement ContainerElement]]
+ *         - [[com.middil.activity.xml.add.ElementText ElementText]]
+ *         - [[com.middil.activity.xml.add.ElementType ElementType]]
  *   - [[com.middil.activity.xml.Draggable Draggable]]
  *   - [[com.middil.activity.xml.ElementCount ElementCount]]
- *   - [[com.middil.activity.xml.Element Element]]
+ *   - [[com.middil.activity.xml.add.Element Element]]
  *     - [[com.middil.activity.xml.ElementAudio ElementAudio]]
  *     - [[com.middil.activity.xml.ElementMedia ElementMedia]]
  *   - [[com.middil.activity.xml.Group Group]]
@@ -46,14 +49,17 @@ case class ADD(
   groups: Seq[Group],
   elementCount: Option[ElementCount],
   draggables: Seq[Draggable],
-  elements: Seq[Element],
-  containers: Seq[Container],
+  elements: Seq[ADD.element],
+  containers: Seq[ADD.container],
   hotspotLists: Seq[HotspotList],
   hotspots: Seq[Hotspot],
   weight: Option[Weight]
 )
 
 object ADD {
+
+  type container = add.Container
+  type element   = add.Element
 
   def toElem(add: ADD): scala.xml.Elem = {
     <data type="ADD" author={add.author} saved={add.saved} randomize={add.randomize}>
