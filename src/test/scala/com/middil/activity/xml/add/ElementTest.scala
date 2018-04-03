@@ -1,6 +1,7 @@
 package com.middil
 package activity
 package xml
+package add
 
 import org.scalatest.FlatSpec
 import org.scalatest.Matchers
