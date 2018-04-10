@@ -4,7 +4,7 @@ package xml
 package add
 
 /**
- * <container
+ * <element
  *   x="288"
  *   y="44"
  *   width="150"
@@ -20,7 +20,7 @@ package add
  *   type="interactive_text"
  *   label=""
  *   randomize="false"
- *   weight="0">...</container>
+ *   weight="0">...</element>
  */
 case class Element(
   hideText: String,

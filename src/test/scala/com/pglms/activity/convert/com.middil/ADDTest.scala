@@ -65,7 +65,8 @@ class ADDTest
             com.middil.activity.xml.Total(
               weight = Some(0L)
             )
-          )
+          ),
+          extra = None
         )
       )
     )

@@ -7,5 +7,6 @@ package com
  *
  *   - [[com.pglms.activity]]
  *     - [[com.pglms.activity.Drag Drag]]
+ *     - [[com.pglms.activity.Commentary Commentary]]
  */
 package object pglms

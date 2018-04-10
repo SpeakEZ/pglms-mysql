@@ -11,7 +11,8 @@ package xml
   * }}}
   */
 case class Weight(
-  total: Option[Total]
+  total: Option[Total],
+  extra: Option[Extra]
 )
 
 object Weight {
@@ -19,6 +20,10 @@ object Weight {
     <weight>
       { weight.total.map(
           Total.toElem(_)
+        ).getOrElse(scala.xml.NodeSeq.Empty)
+      }
+      { weight.extra.map(
+          Extra.toElem(_)
         ).getOrElse(scala.xml.NodeSeq.Empty)
       }
     </weight>
@@ -38,5 +43,21 @@ case class Total(
 object Total {
   def toElem(total: Total): scala.xml.Elem = {
     <total>{total.weight.getOrElse(0)}</total>
+  }
+}
+
+/**
+  * Extra
+  * {{{
+  * <extra>0</extra>
+  * }}}
+  */
+case class Extra(
+  amount: Option[Long]
+)
+
+object Extra {
+  def toElem(extra: Extra): scala.xml.Elem = {
+    <extra>{extra.amount.getOrElse(0)}</extra>
   }
 }
