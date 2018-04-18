@@ -51,7 +51,8 @@ class ElementTest
       ),
       audio                 = Some(
         ElementAudio(
-          iconColor = "229740"
+          iconColor = "229740",
+          None
         )
       )
     )

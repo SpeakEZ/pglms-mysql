@@ -19,7 +19,9 @@ object Commentary {
   def fromString(str: String): Option[Commentary] = {
     Some(
       Commentary(
-        html = scala.xml.XML.loadString(str)
+        html = new scala.xml.parsing.XhtmlParser(
+          scala.io.Source.fromString(str)
+        ).initialize.document.children
       )
     )
   }
@@ -27,7 +29,9 @@ object Commentary {
   def fromFile(file: String): Option[Commentary] = {
     Some(
       Commentary(
-        html = scala.xml.XML.loadFile(file)
+        html = new scala.xml.parsing.XhtmlParser(
+          scala.io.Source.fromFile(file)
+        ).initialize.document.children
       )
     )
   }

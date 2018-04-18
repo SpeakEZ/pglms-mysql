@@ -9,12 +9,38 @@ package xml
  * }}}
  */
 case class ElementAudio(
-  iconColor: String
+  iconColor: String,
+  source: Option[AudioSource]
 )
 
 object ElementAudio {
 
   def toElem(elementAudio: ElementAudio): scala.xml.Elem = {
-    <audio iconColor={elementAudio.iconColor}/>
+    if (elementAudio.source.isEmpty) {
+      <audio iconColor={elementAudio.iconColor}/>
+    } else {
+      <audio>
+        { elementAudio.source.map(
+            AudioSource.toElem(_)
+          ).getOrElse(scala.xml.NodeSeq.Empty)
+        }
+      </audio>
+    }
+  }
+}
+
+/**
+ * Audio source
+ * {{{
+ * <source/>
+ * }}}
+ */
+case class AudioSource(
+)
+
+object AudioSource {
+
+  def toElem(audioSource: AudioSource): scala.xml.Elem = {
+    <source/>
   }
 }

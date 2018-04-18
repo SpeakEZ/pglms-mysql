@@ -122,7 +122,8 @@ object ADD {
         ),
         audio                 = Some(
           com.middil.activity.xml.ElementAudio(
-            iconColor = "229740"
+            iconColor = "229740",
+            source    = None
           )
         )
       )

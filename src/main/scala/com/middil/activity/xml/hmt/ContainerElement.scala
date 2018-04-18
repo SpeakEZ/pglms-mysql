@@ -23,19 +23,20 @@ object ContainerElement {
     <element>
       { containerElement.textArea.map(
           ElementTextArea.toElem(_)
-        ).getOrElse(scala.xml.NodeSeq.Empty) 
+        ).getOrElse(scala.xml.NodeSeq.Empty)
       }
       { containerElement.elementType.map(
           ElementType.toElem(_)
-        ).getOrElse(scala.xml.NodeSeq.Empty) 
+        ).getOrElse(scala.xml.NodeSeq.Empty)
       }
       { containerElement.text.map(
           ElementText.toElem(_)
-        ).getOrElse(scala.xml.NodeSeq.Empty) 
+        ).getOrElse(scala.xml.NodeSeq.Empty)
       }
-      { containerElement.media.map(
-          ElementMedia.toElem(_)
-        ).getOrElse(scala.xml.NodeSeq.Empty) 
+      { containerElement.image.map(
+          ElementImage.toElem(_)
+      ).getOrElse(scala.xml.NodeSeq.Empty)
+
       }
       { containerElement.media.map(
           ElementMedia.toElem(_)
@@ -141,8 +142,8 @@ object ElementTextArea {
               toolBar={elementText.toolBar}
               lineHeight={elementText.lineHeight.toString}
               weight={elementText.weight.toString}
-              verticalTextAlignment={elementText.verticalTextAlignment}>
-      {elementText.text}
-    </textArea>
+              verticalTextAlignment={elementText.verticalTextAlignment}>{
+      elementText.text
+    }</textArea>
   }
 }
