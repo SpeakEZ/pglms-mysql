@@ -1,0 +1,44 @@
+<data>
+  <image>https://content.pglms.com/mentor_spanish/media/images/diglot/middle/semester1/story01_scene01.jpg</image>
+  <audio>https://content.pglms.com/mentor_spanish/media/audio/diglot/middle/semester1/story01_scene01_E100.mp3</audio>
+  <speakers>
+    <speaker num="1">BOLSA</speaker>
+    <speaker num="2">BILLY JO</speaker>
+  </speakers>
+  <lines>
+    <line speaker="1" cue="">The photograph has no head.</line>
+    <line speaker="2" cue="">What are you saying?</line>
+    <line speaker="1" cue="">The photograph has no head.  Which word do you not understand, photograph or head?</line>
+    <line speaker="2" cue="">I understand the words, but I don't understand you.</line>
+    <line speaker="1" cue="">Look, the photograph has no head.  How do I find a man when he has no head?</line>
+    <line speaker="2" cue="">He has a head.</line>
+    <line speaker="1" cue="">Fine.  He has a head.  How do I find a man when he has no face?</line>
+    <line speaker="2" cue="">He has a face.</line>
+    <line speaker="1" cue="">Fine. How do I find a man when I don't know what he looks like?</line>
+    <line speaker="2" cue="">You do know what he looks like.  There's a picture right in front of you. I don't think you are
+      a very good detective at all.  In fact, you are the worst detective I have ever met.  You think that a man can walk
+      around without a head or a face.  Some detective.</line>
+    <line speaker="1" cue="">I am the best detective in all of Latin America.</line>
+    <line speaker="2" cue="">This isn't Latin America.</line>
+    <line speaker="1" cue="">I know.  I know.  This is the United States.  Look, I think maybe we got off on the wrong foot.
+      Let's try again.  What can you tell me about this man?</line>
+    <line speaker="2" cue="">He lives not too far from here with his mother.  His name is William Morningstar.  He is 35
+      years old.  He has black hair, blue eyes, and he's bald. But he's been missing for three weeks.</line>
+    <line speaker="1" cue="">How can he have black hair and be bald?</line>
+    <line speaker="2" cue="">Maybe he has red hair or blonde hair. I'm not sure.</line>
+    <line speaker="1" cue="">But if he has hair, he's not bald.</line>
+    <line speaker="2" cue="">Well, he has hair, but not very much hair.  He's mostly bald.</line>
+    <line speaker="1" cue="">Anything else? Tall or short?  Good looking or ugly? Fat or skinny?</line>
+    <line speaker="2" cue="">You are the worst detective ever.  Look at the picture.  Does he look fat?</line>
+    <line speaker="1" cue="">OK.  OK.  OK.  How much?</line>
+    <line speaker="2" cue="">How much for what?</line>
+    <line speaker="1" cue="">How much money will you pay?</line>
+    <line speaker="2" cue="">How much money will I pay for what?</line>
+    <line speaker="1" cue="">How much money will you pay me to find this man?</line>
+    <line speaker="2" cue="">Three thousand dollars.</line>
+    <line speaker="1" cue="">Fine.  Fine.  I'll take the case.  I'll call you when I find out anything.  See you later.</line>
+    <line speaker="2" cue="">Thank you.  And please don't forget the photograph.</line>
+    <line speaker="1" cue="">Oh, the photograph.  Great.  Thanks again.</line>
+    <line speaker="2" cue="">You're welcome. Latin America's greatest detective.  Humph.</line>
+  </lines>
+</data>
